@@ -1,0 +1,57 @@
+:root {
+  --mainYellow: #FFFD82;
+  --mainGreen: #087E8B;
+  --mainRed: #D63230;
+  --mainBlue: #1789FC;
+  --mainPink: #FE938C;
+}
+
+
+
+#changeButton {
+  position: relative;
+  color: #3479d0;
+  background-color: #a29e9ea3;
+  height: 100px;
+  width: 20vw;
+  border-radius: 10px 10px;
+  border-width: 3px;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 1px 1px 11px lightgrey;
+}
+
+.btnContainer {
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: auto;
+  height: 30%;
+}
+
+.values {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 6px 13px black;
+}
+
+
+.blue {
+  background-color: var(--mainBlue);
+}
+
+.yellow {
+  background-color: var(--mainYellow);
+}
+
+.green {
+  background-color: var(--mainGreen);
+}
+
+.red {
+  background-color: var(--mainRed);
+}
+
+.pink {
+  background-color: var(--mainPink);
+}
